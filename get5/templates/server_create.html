@@ -48,14 +48,12 @@
         </div>
       </div>
 
-      {% if is_admin or is_sadmin %}
       <div class="form-group">
         {{ form.public_server.label(class="col-sm-2 control-label") }}
         <div class="col-sm-7">
           {{ form.public_server(class="col-sm-offset-1") }}
         </div>
       </div>
-      {% endif %}
 
       {% if edit %}
       <div class="input submit col-sm-offset-1">
