@@ -31,9 +31,9 @@ MAPLIST = [
     'de_shortnuke',
     'de_overpass',
     'de_train',
-    'de_vertigo',
     'de_shortdust',
     'de_cbble',
+    'workshop/2054507930/de_vertigo'
 ]
 
 # Maps whose checkbox is selected (in the mappool) by default in the "create a match" page
@@ -42,7 +42,6 @@ DEFAULT_MAPLIST = [
     'de_shortnuke',
     'de_overpass',
     'de_train',
-    'de_vertigo',
     'de_shortdust',
     'de_cbble',
 ]
