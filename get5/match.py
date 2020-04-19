@@ -65,7 +65,7 @@ class MatchForm(Form):
 
     series_type = RadioField('Series type',
                              validators=[validators.required()],
-                             default='bo1',
+                             default='bo3',
                              choices=[
                                  ('bo1-preset', 'Bo1 with preset map'),
                                  ('bo1', 'Bo1 with map vetoes'),
@@ -137,7 +137,7 @@ class MatchForm(Form):
                                  default=True)
 
     min_player_ready = IntegerField('Max # Players Per Team',
-                                    default=5,
+                                    default=2,
                                     validators=[validators.required(), validators.NumberRange(1, 10)])
     
     def add_teams(self, user):
